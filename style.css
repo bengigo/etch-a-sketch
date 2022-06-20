@@ -1,36 +1,36 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color:lightsteelblue
+  background-color: lightsteelblue;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #size {
-    background-color: tomato;
-    color: white;
-    border: none;
-    border-radius: 6%;
-    padding: 10px 8px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 6%;
+  padding: 10px 8px;
 }
 
 #squares {
-    background-color: white;
-    width: 650px;
-    height: 650px;
-    display: grid;
-    margin: auto;
+  background-color: white;
+  width: 650px;
+  height: 650px;
+  display: grid;
+  margin: auto;
 }
 
 /* .square:hover {
