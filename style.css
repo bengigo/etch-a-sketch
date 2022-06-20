@@ -11,6 +11,20 @@ body {
     background-color:lightsteelblue
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#size {
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 6%;
+    padding: 10px 8px;
+}
+
 #squares {
     background-color: white;
     width: 650px;
