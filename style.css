@@ -1,36 +1,40 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: lightsteelblue;
+    background-color: #bccad6;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #size {
-  background-color: tomato;
-  color: white;
-  border: none;
-  border-radius: 6%;
-  padding: 10px 8px;
+    background-color: #667292;
+    color: #f1e3dd;
+    border: none;
+    border-radius: 6%;
+    padding: 10px 8px;
+    margin-bottom: 10px;
 }
 
 #squares {
-  background-color: white;
-  width: 650px;
-  height: 650px;
-  display: grid;
-  margin: auto;
+    background-color: white;
+    width: 650px;
+    height: 650px;
+    display: grid;
+    margin: auto;
+    -webkit-box-shadow: 4px 6px 16px 29px rgba(141, 157, 182, 0.47);
+    -moz-box-shadow: 4px 6px 16px 29px rgba(141, 157, 182, 0.47);
+    box-shadow: 4px 6px 16px 29px rgba(141, 157, 182, 0.47);
 }
 
 /* .square:hover {
