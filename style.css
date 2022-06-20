@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#squares {
+    background-color: lavenderblush;
+    border: solid;
+    width: 650px;
+    height: 650px;
+    display: grid;
+    margin: auto;
+}
